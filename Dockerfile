@@ -1,7 +1,15 @@
 
-FROM lacledeslan/warsow
+FROM lacledeslan/gamesvr-warsow
 
-COPY /dist /app/warsow-2.1.2/
+
+ENV LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_ALL=en_US.UTF-8
+
+COPY --chown=Warsow:root /dist /app
+
+COPY --chown=Warsow:root ./ll-tests /app/ll-tests
+
+RUN chmod +x /app/ll-tests/*.sh;
+
 
 WORKDIR /app/warsow-2.1.2/
 CMD ["/bin/bash"]
