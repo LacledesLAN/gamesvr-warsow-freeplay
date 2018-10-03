@@ -6,7 +6,7 @@
         {
             "label": "Build",
             "type": "shell",
-            "command": "docker pull lacledeslan/steamcmd:linux; docker pull debian:stable-slim; docker build . -t lltest/gamesvr-warsow-freeplay --no-cache --build-arg BUILDNODE=$env:computername;",
+            "command": "docker pull lacledeslan/steamcmd:linux; docker pull lacledeslan/gamesvr-warsow docker pull debian:stable-slim; docker build . -t lltest/gamesvr-warsow-freeplay --no-cache --build-arg BUILDNODE=$env:computername;",
             "group": "build",
             "identifier": "build-image",
             "problemMatcher": [],

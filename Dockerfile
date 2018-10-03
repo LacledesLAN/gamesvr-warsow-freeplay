@@ -11,6 +11,6 @@ COPY --chown=Warsow:root ./ll-tests /app/ll-tests
 RUN chmod +x /app/ll-tests/*.sh;
 
 
-WORKDIR /app/warsow-2.1.2/
+WORKDIR /app
 CMD ["/bin/bash"]
 ONBUILD USER root
