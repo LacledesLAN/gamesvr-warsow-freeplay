@@ -1,12 +1,12 @@
+# Laclede's LAN Warsow Freeplay Dedicated Server in Docker
+
 ![Laclede's LAN Warsow Freeplay Dedicated Server](https://raw.githubusercontent.com/LacledesLAN/gamesvr-warsow-freeplay/master/.misc/banner-warsow-freeplay.png "Laclede's LAN Warsow Freeplay Dedicated Server")
 
 This repository is maintained by [Laclede's LAN](https://lacledeslan.com). Its contents are heavily tailored and tweaked for use at our charity LAN-Parties. For third-parties we recommend using this repo only as a reference example and then building your own using [gamesvr-warsow](https://github.com/LacledesLAN/gamesvr-warsow) as the base image for your customized server.
 
 ## Linux
 
-[![Build Status](https://travis-ci.org/LacledesLAN/gamesvr-warsow-freeplay.svg?branch=master)](https://travis-ci.org/LacledesLAN/gamesvr-warsow-freeplay)
-[![](https://images.microbadger.com/badges/version/lacledeslan/gamesvr-warsow-freeplay.svg)](https://microbadger.com/images/lacledeslan/gamesvr-warsow-freeplay "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/lacledeslan/gamesvr-warsow-freeplay.svg)](https://microbadger.com/images/lacledeslan/gamesvr-warsow-freeplay "Get your own image badge on microbadger.com")
+![linux/amd64](https://github.com/LacledesLAN/gamesvr-warsow-freeplay/workflows/linux/amd64/badge.svg?branch=master)
 
 ### Download
 
