@@ -13,9 +13,6 @@ LABEL com.lacledeslan.build-node = $BUILDNODE `
         org.opencontainers.image.vendor "Laclede's LAN" `
         org.opencontainers.image.version = $SOURCE_COMMIT
 
-
-LABEL org.opencontainers.image.source https://github.com/OWNER/REPO
-
 # UPDATE USERNAME & ensure permissions
 RUN usermod -l WarsowFreeplay Warsow;
 
